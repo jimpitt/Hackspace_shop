@@ -1,0 +1,28 @@
+Create inital DB
+	Stock
+	Products
+	Customers
+	Users
+	Tansactions
+
+
+Create functions in Main to:
+	Create Data
+	Read Data
+	Update Data
+	Delte Data
+
+Pages to create:
+	Purchase Orders
+	Invoice
+	Stock Take
+
+
+Interactive Devices
+	Barcode Scanner
+		should this be a usb barcode reader or camera app
+	Nfc Reader
+		posibly using the GPIO pins on the RPI 
+
+	
+
