@@ -51,10 +51,10 @@ productIsAgeRestricted bit,
 PRIMARY KEY (productId)
 );
 
-INSERT INTO `users`  (productId ,productName ,productCost, productType, productIsAgeRestricted)
+INSERT INTO `users`  (productId ,productName ,productBarcode, productCost, productType, productIsAgeRestricted)
 values
-('12345','drink','1.00','drink','false')
-('12345','energy_drink','1.00','drink','true')
-('12345','Monster_Munch','1.00','crisps', false)
+('12345','Coke','','1.00','drink','false')
+('12345','Relentless','', '1.00','drink','true')
+('12345','Monster_Munch','', '1.00','crisps','false')
 
 CREATE TABLE IF NOT EXISTS stock
