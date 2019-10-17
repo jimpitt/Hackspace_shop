@@ -17,6 +17,9 @@ Pages to create:
 	Invoice
 	Stock Take
 
+Produce Barcodes
+
+
 
 Interactive Devices
 	Barcode Scanner
