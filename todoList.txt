@@ -20,9 +20,9 @@ Pages to create:
 
 Interactive Devices
 	Barcode Scanner
-		should this be a usb barcode reader or camera app
-	Nfc Reader
-		posibly using the GPIO pins on the RPI 
+		should this be a usb barcode reader or camera /phone app
+	NFC Reader
+		possibly using the GPIO pins on the RPI 
 
 	
 
