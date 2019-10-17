@@ -51,9 +51,23 @@ productIsAgeRestricted bit,
 PRIMARY KEY (productId)
 );
 
-INSERT INTO `users`  (productId ,productBarcode ,productName ,productCost, productType, productIsAgeRestricted)
+INSERT INTO `products`  (productId ,productBarcode ,productName ,productCost, productType, productIsAgeRestricted)
 values
 ('12345','drink','1.00','drink','false')
 ('12345','energy_drink','1.00','drink','true')
 
-CREATE TABLE IF NOT EXISTS stock
+CREATE TABLE IF NOT EXISTS stock (
+stockId int AUTO_INCREMENT ,
+stockQty int,
+stockReorderQty int,
+PRIMARY KEY (stockId)
+);
+
+CREATE TABLE IF NOT EXISTS Transactions (
+transactionID int AUTO_INCREMENT,
+userId int,
+transactionDate date,
+paymentMethod varchar(30)
+reciptNeeded bit
+PRIMARY KEY (transactionID)
+);
