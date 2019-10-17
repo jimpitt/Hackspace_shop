@@ -1,2 +1,2 @@
-# Hackspace_shop
-OCS System for the hackspace
+# Hackspace_Shop
+OCS System for Leigh Hackspace
