@@ -36,7 +36,7 @@ stockReorderQty int,
 PRIMARY KEY (stockId)
 );
 
-CREATE TABLE IF NOT EXISTS Transactions (
+CREATE TABLE IF NOT EXISTS transactions (
 transactionID int AUTO_INCREMENT,
 userId int,
 transactionDate date,
